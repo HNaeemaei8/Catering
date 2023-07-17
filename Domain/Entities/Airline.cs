@@ -7,12 +7,11 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    public class Food
+    public class Airline
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public decimal Price { get; set; }
-        public decimal Rate { get; set; }
-        public byte[] Image { get; set; }
+        public string Country { get; set; }
+        public string City { get; set; }
     }
 }
